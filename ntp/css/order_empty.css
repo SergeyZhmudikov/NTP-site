@@ -1,0 +1,82 @@
+.order_header {
+    color: #005392;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    margin: 20px 0;
+}
+.order_empty_par{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 24px;
+
+}
+.order_ico{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.order_link{
+    color: #005392;
+    
+}
+.order_link:hover{
+    color: #00B1EB;
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+
+.order_instruction{
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .order_header {
+        font-size: 20px;
+    }
+    .order_empty_par{
+        font-size: 12px;
+    
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .order_header {
+        font-size: 22px;
+    }
+    .order_empty_par{
+        font-size: 12px;
+    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .order_header {
+        font-size: 22px;
+    }
+    .order_empty_par{
+        font-size: 12px;
+    
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .order_header {
+        font-size: 24px;
+    }
+    .order_empty_par{
+        font-size: 14px;
+    
+    }
+}
+
+@media (min-width: 1200px) {
+    .order_header {
+        font-size: 26px;
+    }
+    .order_empty_par{
+        font-size: 16px;
+    
+    }
+}

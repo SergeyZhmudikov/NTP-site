@@ -1,0 +1,105 @@
+.nav_company {
+    margin-bottom: 35px;
+}
+
+.nav_company a {
+    text-decoration: none;
+}
+
+.catalog_header {
+    font-size: 20px;
+    color: #005392;
+    line-height: 31px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.catalog_header.address {
+    border-bottom: 2px solid #005392;
+}
+
+.catalog_header.contact_us,
+.catalog_header.members {
+    border-bottom: 2px solid #ffffff;
+}
+
+.contact_info {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+.contact_map {
+    margin-bottom: 40px;
+}
+
+.info_block {
+    margin-bottom: 20px;
+}
+
+.contact_map iframe {
+    width: 100%
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .catalog_header,
+    .nav_company .catalog_header {
+        font-size: 20px;
+        text-align: left;
+    }
+    .contact_info {
+        font-size: 12px;
+    }
+    .contact_map iframe {
+        height: 312px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .catalog_header {
+        font-size: 22px;
+    }
+    .contact_info {
+        font-size: 12px;
+    }
+    .contact_map iframe {
+        height: 286px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .catalog_header {
+        font-size: 22px;
+    }
+    .contact_info {
+        font-size: 14px;
+    }
+    .contact_map iframe {
+        height: 387px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .catalog_header {
+        font-size: 24px;
+    }
+    .contact_info {
+        font-size: 14px;
+    }
+    .contact_map iframe {
+        height: 522px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .catalog_header {
+        font-size: 26px;
+    }
+    .contact_info {
+        font-size: 16px;
+    }
+    .contact_map iframe {
+        height: 623px;
+    }
+}

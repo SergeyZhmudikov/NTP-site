@@ -1,0 +1,116 @@
+.nav_company{
+    margin-bottom: 35px;
+}
+.nav_company a{
+    text-decoration: none;
+}
+.catalog_header {
+    font-size: 20px;
+    color: #005392;
+    line-height: 31px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+#history {
+    border-bottom: 2px solid #005392;
+}
+
+#cooperation {
+    border-bottom: 2px solid #ffffff;
+}
+
+.company_video {
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+.company_video iframe {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.company_subheader{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.company_paragraph p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+}
+.company_info{
+    margin-bottom: 30px;
+}
+.wd_logo,
+.managment{
+    height: 60px;
+}
+.managment{
+    margin: 0 15px;
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .catalog_header {
+        font-size: 20px;
+    }
+    .company_video {
+        height: 167px;
+     }
+     .company_paragraph p{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .catalog_header {
+        font-size: 22px;
+    }
+    .company_video {
+        height: 284px;
+     }
+     .company_paragraph p{
+        font-size: 12px;
+    }
+    .left540{
+        margin-bottom: 52px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .catalog_header {
+        font-size: 22px;
+    }
+    .company_video {
+        height: 387px;
+     }
+     .company_paragraph p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .catalog_header {
+        font-size: 24px;
+    }
+    .company_video {
+        height: 522px;
+     }
+     .company_paragraph p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .catalog_header {
+        font-size: 26px;
+    }
+    .company_video {
+       height: 522px;
+    }
+    .company_paragraph p{
+        font-size: 16px;
+    }
+}

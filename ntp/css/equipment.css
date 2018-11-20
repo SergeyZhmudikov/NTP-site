@@ -1,0 +1,397 @@
+section a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00B1EB;
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+    text-decoration: none;
+    color: #00B1EB;
+}
+
+.breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+}
+
+a {
+    color: #005392;
+    text-decoration: none;
+}
+
+a .stend_header {
+    text-decoration: none;
+}
+
+.stend_header {
+    color: #005392;
+    font-family: 'Exo 2', sans-serif;
+    /* display: inline-block; */
+}
+
+.drop_icon {
+    /* display: inline-block; */
+}
+
+.stend_header__center {
+    text-align: center;
+}
+
+.stend_version {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sect_header {
+    background-color: #B1DDFF;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    font-size: 12px;
+}
+
+.stend_subsection {
+    color: #005392;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    cursor: pointer;
+}
+
+.stend_subsection__left {
+    /* text-align: center; */
+}
+
+.stend_subsection__left {
+    border-bottom: 2px solid #005392;
+}
+
+.stend_subsection__right {
+    border-bottom: 2px solid #ffffff;
+}
+
+.subsection {
+    margin-bottom: 30px;
+}
+
+.stend_description {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+.description_header {
+    border-bottom: 2px solid #B1DDFF;
+}
+
+.lab_list {
+    padding-left: 15px;
+}
+
+.article_parameters {
+    margin-bottom: 22px;
+}
+
+.stend_tech_value {
+    /* height: 24px; */
+}
+
+.sect_header.padd_left {
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+.article_soft,
+.article_need_add_equipment {
+    margin-bottom: 22px;
+}
+
+.article_need_add_equipment a,
+.article_recomend_add_equipment a {
+    margin-bottom: 12px;
+}
+
+a .sect_header.padd_left,
+a .stend_subsection {
+    color: #005392;
+}
+
+a .sect_header.padd_left:hover,
+a .stend_subsection:hover {
+    color: #00B1EB;
+}
+
+.add_order {
+    background-color: #005392;
+    text-align: center;
+    color: white;
+    height: 35px;
+    /* padding-top: 5px; */
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.add_order:hover {
+    background-color: #00B1EB;
+}
+
+.stend_img {
+    border: 2px solid #005392;
+    margin-bottom: 24px;
+    /* width: 100%; */
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.stend_img img {
+    /* margin: auto; */
+    height: 100%;
+    /* width: 100%; */
+}
+
+.description_header {
+    margin-bottom: 22px;
+}
+
+.stend_tech_value.hidden {
+    opacity: 0;
+}
+
+.breadcrumb {
+    background-color: initial;
+    width: 100%;
+}
+
+ol.breadcrumb {
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb-item.short {
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.breadcrumb-item {
+    white-space: nowrap;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #005392;
+}
+
+.order_block-fixed {
+    position: fixed;
+    right: 80px;
+    top: 100px;
+}
+
+.price {
+    height: 72px;
+    width: 100%;
+    background-color: #B1DDFF;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #005392;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .stend_header,
+    .stend_subsection,
+    .price {
+        font-size: 20px;
+    }
+    .sect_header,
+    .stend_tech_param,
+    .stend_description,
+    .stend_tech_value,
+    .lab_item {
+        font-size: 12px;
+    }
+    .bread {
+        display: none;
+    }
+    .stend_img {
+        height: 86px;
+    }
+    .description_block {
+        order: 2;
+    }
+    .order_block {
+        order: 1;
+    }
+    .stend_photo {
+        order: 1;
+    }
+    .order_btn {
+        order: 2;
+    }
+    .add_order {
+        font-size: 13px;
+    }
+    .price {
+        height: 36px;
+    }
+    .table-img-view {
+        display: none;
+    }
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .stend_header,
+    .stend_subsection,
+    .price {
+        font-size: 22px;
+    }
+    .sect_header,
+    .stend_tech_param,
+    .stend_description,
+    .stend_tech_value {
+        font-size: 14px;
+    }
+    .lab_item {
+        font-size: 12px;
+    }
+    .stend_tech_value.voltage {
+        letter-spacing: -1px;
+    }
+    .stend_img {
+        height: 99px;
+    }
+    .add_order {
+        font-size: 14px;
+        /* margin-top: 25px; */
+        /* width: 150px; */
+    }
+    .description_block {
+        order: 2;
+    }
+    .order_block {
+        order: 1;
+    }
+    .stend_photo {
+        order: 1;
+    }
+    .order_btn {
+        order: 2;
+    }
+    .breadcrumb-item {
+        font-size: 12px;
+    }
+    .breadcrumb-item.short {
+        width: 32%;
+        overflow: hidden;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+    .bread>nav {
+        width: 100%;
+    }
+    .price {
+        height: 36px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .stend_header,
+    .stend_subsection,
+    .price {
+        font-size: 22px;
+    }
+    .sect_header,
+    .lab_item,
+    .stend_tech_param,
+    .stend_description,
+    .stend_tech_value {
+        font-size: 12px;
+    }
+    .stend_tech_value {
+        /* height: 18px; */
+    }
+    .stend_img {
+        height: 99px;
+    }
+    .add_order {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .breadcrumb {
+        padding: 0;
+    }
+    .price {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .stend_header,
+    .stend_subsection,
+    .price {
+        font-size: 24px;
+    }
+    .sect_header,
+    .lab_item,
+    .stend_tech_param,
+    .stend_description,
+    .stend_tech_value {
+        font-size: 14px;
+    }
+    .stend_tech_value {
+        /* height: 21px; */
+    }
+    .stend_img {
+        height: 138px;
+    }
+    .add_order {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .stend_header,
+    .stend_subsection,
+    .price {
+        font-size: 26px;
+    }
+    .sect_header,
+    .lab_item,
+    .stend_tech_param,
+    .stend_description {
+        font-size: 16px;
+    }
+    .stend_tech_value {
+        /* height: 24px; */
+    }
+    .stend_img {
+        height: 168px;
+    }
+    .add_order {
+        font-size: 18px;
+    }
+    /* .order_block {
+        position: fixed;
+        right: 0;
+        bottom: 10%;
+    } */
+}

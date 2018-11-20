@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NTP CENTR</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/mediacenter.css">
+    <link rel="stylesheet" href="css/video.css">
+
+
+
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal_backgr"></div>
+
+                <div class="container margin320">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6
+                                col-12 search_panel">
+                            <img src="css/images/icons/search.svg" alt="">
+                            <form action="" method="post">
+                                <input class="modal_input" type="search" placeholder="Поиск по сайту">
+                            </form>
+                            <img data-dismiss="modal" src="css/images/icons/delete.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal video -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog video" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+  
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <!-- <span aria-hidden="true">&times;</span> -->
+            <img class="" src="css/images/icons/delete.svg" alt="">
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always">></iframe>
+  </div>
+          
+          
+        </div>
+  
+      </div>
+    </div>
+  </div> 
+  
+
+    <header>
+        <div class="navigation_menu">
+            <div class="container">
+                <div class="row b0">
+                    <div class="col-xl-12">
+                        <div class="header_bckgr">
+                            <div class="logo_wrap">
+                                <a href="index.html">
+                                    <img class="logo" src="css/images/icons/LOGO_Registracia_2017.svg" alt="Logo">
+                                </a>
+                            </div>
+                            <div class="menu_bckgr"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row b1">
+                    <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2
+                            col-md-8 col-sm-7 navmenu">
+                        <ul class="menu_nav">
+                            <li class="item_letter">
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li class="item_letter">
+                                <a href="products.html">Продукция</a>
+                            </li>
+                            <li class="item_letter">
+                                <a href="company.html">Компания</a>
+                            </li>
+                            <li class="item_letter">
+                                <a href="mediacenter.html">Медиацентр</a>
+                            </li>
+                            <li class="item_letter">
+                                <a href="contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5 col-12
+                            navmenu_icon">
+                        <ul class="menu_nav_ico">
+                            <li class="item_icon" id="dropdown">
+                                <img class="drp_menu" src="css/images/icons/group.svg" alt="">
+                            </li>
+                            <li class="item_icon">
+                                <img data-toggle="modal" data-target="#exampleModal" src="css/images/icons/search.svg" alt="">
+                            </li>
+                            <li class="item_icon">
+                                    <a href="order_empty.html"> <img src="css/images/icons/order.svg" alt=""></a>
+                                 </li>
+                                 <li class="item_icon">
+                                    <a href=""> <img src="css/images/icons/translation.svg" alt=""></a>
+                                 </li>
+                        </ul>
+                        <div class="dropdown_menu">
+                            <ul>
+                                <li>
+                                    <a href="index.html">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="products.html">Продукция</a>
+                                </li>
+                                <li>
+                                    <a href="company.html">Компания</a>
+                                </li>
+                                <li>
+                                    <a href="mediacenter.html">Медиацентр</a>
+                                </li>
+                                <li>
+                                    <a href="contacts.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="mediacenter">
+
+            <div class="container">
+                <div class="row mediacenter_header">
+                    <div class="col-sm-4 col-6">
+                       <a href="mediacenter.html"> <div class="media_section news">Новости</div></a>
+                    </div>
+                    <div class="col-sm-4 col-6">
+                        <a href="video.html"><div class="media_section video">Видео</div></a>
+                    </div>
+                    <div class="col-sm-4 hidden320">
+                        <a href=""><div class="media_section brochure">Брошюры</div></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6 catalog">
+                        <a class="stend_item" href="">
+                            <div class="row">
+                                <div class="col-sm-2 col-3 catalog_item">
+                                    <div class="catalog item_img">
+                                        <img src="css/images/catalog/1.png" alt="НТЦ-01.00" srcset="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10 col-9
+                                        catalog_paragraph">
+                                    <p class="item">НТЦ-01.00
+                                         Электротехника и основы электроники
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="stend_item" href="">
+                            <div class="row">
+                                <div class="col-sm-2 col-3 catalog_item">
+                                    <div class="catalog item_img">
+                                        <img src="css/images/catalog/4.png" alt="НТЦ-04.00" srcset="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10 col-9
+                                        catalog_paragraph">
+                                    <p class="item">НТЦ-04.00
+                                         Силовая и преобразовательная техника
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="stend_item" href="">
+                            <div class="row">
+                                <div class="col-sm-2 col-3 catalog_item">
+                                    <div class="catalog item_img">
+                                        <img src="css/images/catalog/7.png" alt="НТЦ-07.00" srcset="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10 col-9
+                                        catalog_paragraph">
+                                    <p class="item">НТЦ-07.00
+                                         Электропривод и преобразовательная техника
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="stend_item" href="">
+                            <div class="row">
+                                <div class="col-sm-2 col-3 catalog_item">
+                                    <div class="catalog item_img pneumo">
+                                        <img src="css/images/catalog/10.png" alt="НТЦ-10.00" srcset="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10 col-9
+                                        catalog_paragraph">
+                                    <p class="item">НТЦ-10.00
+                                         Электроснабжение, электроэнергетика
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 catalog">
+                        <a class="stend_item" href="">
+                            <div class="row">
+                                <div class="col-sm-2 col-3 catalog_item">
+                                    <div class="catalog item_img">
+                                        <img src="css/images/catalog/2.png" alt="НТЦ-02.00" srcset="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10 col-9
+                                        catalog_paragraph">
+                                    <p class="item">НТЦ-02.00 Электроника, схемотехника, вычислительная и микропроцессорная техника
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="stend_item" href="">
+                            <div class="row">
+                                <div class="col-sm-2 col-3 catalog_item">
+                                    <div class="catalog item_img">
+                                        <img src="css/images/catalog/5.png" alt="НТЦ-05.00" srcset="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10 col-9
+                                        catalog_paragraph">
+                                    <p class="item">НТЦ-05.00
+                                        Технические и электрические измерения
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="stend_item" href="">
+                            <div class="row">
+                                <div class="col-sm-2 col-3 catalog_item">
+                                    <div class="catalog item_img">
+                                        <img src="css/images/catalog/8.png" alt="НТЦ-08.00" srcset="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10 col-9
+                                        catalog_paragraph">
+                                    <p class="item">НТЦ-08.00
+                                        Электрические аппараты, электромонтаж
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="stend_item" href="">
+                            <div class="row">
+                                <div class="col-sm-2 col-3 catalog_item">
+                                    <div class="catalog item_img">
+                                        <img src="css/images/catalog/14.png" alt="НТЦ-14.00" srcset="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10 col-9
+                                        catalog_paragraph">
+                                    <p class="item">НТЦ-14.00
+                                         Теплоснабжение и термодинамика
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        <div class="video_block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4" >
+                        <div class="row">
+                            <div class="col-sm-12 col-6">
+                               
+                                        <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                            <img src="css/images/snapshot/snapshot.jpg" alt="">   
+                                        </div>
+                            </div>
+                            <div class="col-sm-12 col-6">
+                                <div class="video_title">
+                                        <p class="video_title__number"> НТЦ-01.01.Б</p>
+                                        <p class="video_title__descrip">Электротехника и основы электроники с МПСО</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="row">
+                            <div class="col-sm-12 col-6">
+                                <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                    <img src="css/images/snapshot/snapshot.jpg" alt="">       
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-6">
+                                <div class="video_title">
+                                    <p class="video_title__number"> НТЦ-06.24.1</p>
+                                    <p class="video_title__descrip">Трёхфазный асинхронный электродвигатель с имитатором неисправностей с МПСУ</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="row">
+                            <div class="col-sm-12 col-6">
+                                <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                    <img src="css/images/snapshot/snapshot.jpg" alt="">        
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-6">
+                                <div class="video_title">
+                                        <p class="video_title__number">НТЦ-22.05.10</p>
+                                        <p class="video_title__descrip">Определение скорости звука в воздухе</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-sm-12 col-6">
+                                <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                    <img src="css/images/snapshot/snapshot.jpg" alt="">    
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-6">
+                                <div class="video_title">
+                                        <p class="video_title__number">НТЦ-22.05.12</p>
+                                        <p class="video_title__descrip">Измерение теплоемкости тел</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-3 col-sm-4">
+                            <div class="row">
+                                <div class="col-sm-12 col-6">
+                                    <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                        <img src="css/images/snapshot/snapshot.jpg" alt="">    
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-6">
+                                    <div class="video_title">
+                                            <p class="video_title__number"> НТЦ-01.01.Б</p>
+                                            <p class="video_title__descrip">Электротехника и основы электроники с МПСО</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="row">
+                                <div class="col-sm-12 col-6">
+                                    <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                        <img src="css/images/snapshot/snapshot.jpg" alt="">    
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-6">
+                                    <div class="video_title">
+                                        <p class="video_title__number"> НТЦ-06.24.1</p>
+                                        <p class="video_title__descrip">Трёхфазный асинхронный электродвигатель с имитатором неисправностей с МПСУ</p>
+    
+                                    </div>
+    
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="row">
+                                <div class="col-sm-12 col-6">
+                                    <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                        <img src="css/images/snapshot/snapshot.jpg" alt="">   
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-6">
+                                    <div class="video_title">
+                                            <p class="video_title__number">НТЦ-22.05.10</p>
+                                            <p class="video_title__descrip">Определение скорости звука в воздухе</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-sm-12 col-6">
+                                    <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                        <img src="css/images/snapshot/snapshot.jpg" alt="">   
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-6">
+                                    <div class="video_title">
+                                            <p class="video_title__number">НТЦ-22.05.12</p>
+                                            <p class="video_title__descrip">Измерение теплоемкости тел</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-3 col-sm-4 " >
+                                <div class="row">
+                                    <div class="col-sm-12 col-6">
+                                        <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                            <img src="css/images/snapshot/snapshot.jpg" alt=""> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-6">
+                                        <div class="video_title">
+                                                <p class="video_title__number"> НТЦ-01.01.Б</p>
+                                                <p class="video_title__descrip">Электротехника и основы электроники с МПСО</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4">
+                                <div class="row">
+                                    <div class="col-sm-12 col-6">
+                                        <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                            <img src="css/images/snapshot/snapshot.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-6">
+                                        <div class="video_title">
+                                            <p class="video_title__number"> НТЦ-06.24.1</p>
+                                            <p class="video_title__descrip">Трёхфазный асинхронный электродвигатель с имитатором неисправностей с МПСУ</p>
+        
+                                        </div>
+        
+                                    </div>
+                                </div>
+        
+        
+                            </div>
+                            <div class="col-md-3 col-sm-4">
+                                <div class="row">
+                                    <div class="col-sm-12 col-6">
+                                        <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                            <img src="css/images/snapshot/snapshot.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-6">
+                                        <div class="video_title">
+                                                <p class="video_title__number">НТЦ-22.05.10</p>
+                                                <p class="video_title__descrip">Определение скорости звука в воздухе</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-sm-12 col-6">
+                                        <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                            <img src="css/images/snapshot/snapshot.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-6">
+                                        <div class="video_title">
+                                                <p class="video_title__number">НТЦ-22.05.12</p>
+                                                <p class="video_title__descrip">Измерение теплоемкости тел</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-md-3 col-sm-4">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-6">
+                                            <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                                <img src="css/images/snapshot/snapshot.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-6">
+                                            <div class="video_title">
+                                                    <p class="video_title__number"> НТЦ-01.01.Б</p>
+                                                    <p class="video_title__descrip">Электротехника и основы электроники с МПСО</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-6">
+                                            <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                                <img src="css/images/snapshot/snapshot.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-6">
+                                            <div class="video_title">
+                                                <p class="video_title__number"> НТЦ-06.24.1</p>
+                                                <p class="video_title__descrip">Трёхфазный асинхронный электродвигатель с имитатором неисправностей с МПСУ</p>
+            
+                                            </div>
+            
+                                        </div>
+                                    </div>
+            
+            
+                                </div>
+                                <div class="col-md-3 col-sm-4">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-6">
+                                            <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                                <img src="css/images/snapshot/snapshot.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-6">
+                                            <div class="video_title">
+                                                    <p class="video_title__number">НТЦ-22.05.10</p>
+                                                    <p class="video_title__descrip">Определение скорости звука в воздухе</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-6">
+                                            <div class="video_card video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/ECxq4yaYtJ0" data-target="#myModal">
+                                                <img src="css/images/snapshot/snapshot.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-6">
+                                            <div class="video_title">
+                                                    <p class="video_title__number">НТЦ-22.05.12</p>
+                                                    <p class="video_title__descrip">Измерение теплоемкости тел</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-xl-12">
+                            <div class="backgr_footer"></div>
+                        </div>
+    
+                    </div>
+                    <div class="row ">
+                        <div class="col-xl-12 footer_nav">
+                            <div class="row ">
+                                <div class=" col-md-3 col-lg-3 col-xl-3 first">
+                                    <form method="POST" class="search_input">
+    
+                                        <input type="search" name="" id="" placeholder="Поиск по сайту">
+                                        <div class="search_ico"><a href="search.html"><img src="css/images/icons/vector.svg" alt=""></a></div>
+                                    </form>
+                                </div>
+                                <div class=" col-6 col-sm-7 col-md-6 col-lg-6 col-xl-6 second">
+                                    <ul class="footer_menu">
+                                        <li><a href="index.html">Главная</a></li>
+                                        <li><a class="vis_320" href="products.html">Продукция</a></li>
+                                        <li><a href="company.html">Компания</a></li>
+                                        <li><a href="mediacenter.html">Медиацентр</a></li>
+                                        <li><a class="vis_320" href="contacts.html">Контакты</a></li>
+                                        <li><a class="sm_padding" href=""><span>Ассоциация</span> WorldDidac</a></li>
+                                        <li><a href=""><span>Сертификат</span> ISO-9001:2015</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 col-sm-5 col-md-3 col-lg-3 col-xl-3 third">
+                                    <div class="copyright">
+                                        © УП "НТП "Центр" <br>1991-2018
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/video.js"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>delete</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-23941 94)">
+<g id="delete">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(23941 -94)" fill="#FF0000"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(23941 -93.999)" fill="#FF0000"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 19.7634 0.236621C 19.4479 -0.0788737 18.9364 -0.0788737 18.6209 0.236621L 0.236631 18.62C -0.078877 18.9355 -0.078877 19.447 0.236631 19.7625C 0.394365 19.9203 0.601162 19.9992 0.80792 19.9992C 1.01468 19.9992 1.22144 19.9203 1.37921 19.7625L 19.7634 1.37907C 20.0789 1.06362 20.0789 0.552116 19.7634 0.236621Z"/>
+<path id="path1_fill" d="M 19.7634 18.62L 1.37913 0.236621C 1.06366 -0.0788737 0.5521 -0.0788737 0.236631 0.236621C -0.078877 0.552077 -0.078877 1.06358 0.236631 1.37907L 18.6209 19.7625C 18.7786 19.9203 18.9854 19.9992 19.1921 19.9992C 19.3989 19.9992 19.6057 19.9203 19.7634 19.7626C 20.0788 19.447 20.0788 18.9355 19.7634 18.62Z"/>
+</defs>
+</svg>

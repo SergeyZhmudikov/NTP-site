@@ -1,0 +1,253 @@
+.media_section.video {
+    border-bottom: 2px solid #005392
+}
+
+.media_section.news {
+    border-bottom: 2px solid #ffffff
+}
+
+.catalog_header {
+    font-size: 20px;
+    color: #005392;
+    line-height: 31px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.catalog a {
+    text-decoration: none;
+}
+
+.stend_item {
+    margin: 24px 0;
+    display: block;
+}
+
+.catalog_item .catalog {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.catalog_paragraph {
+    /* display: flex;
+    align-items: center; */
+    margin: auto;
+}
+
+.catalog_paragraph {}
+
+a:hover .item_img {
+    background-color: #00B1EB;
+}
+
+a:hover .item {
+    color: #00B1EB;
+}
+
+.item_img {
+    background-color: #005392;
+    width: 48px;
+    height: 48px;
+}
+
+.item {
+    font-size: 14px;
+    color: #005392;
+    line-height: 24px;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item_img img {
+    width: 85%;
+    margin: auto;
+}
+
+.item_img.pneumo img {
+    width: 50%;
+}
+
+.video_card {
+    border: 2px solid #005392;
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.video_card img {
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+
+.video_title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #005392;
+    cursor: pointer;
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.video_title:hover {
+    color: #00B1EB;
+}
+
+.video_title__number,
+.video_title__descrip {
+    margin-bottom: 0;
+    display: inline;
+}
+
+.dis_btn_block {
+    padding: 0;
+}
+
+.dissmiss_btn {
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+    /* z-index: 10; */
+}
+
+.video_inside {
+    height: 624px;
+    width: 100%;
+    background-color: black;
+}
+
+.modal-dialog.video {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .catalog_header {
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+    }
+    .video_card {
+        height: 86px;
+    }
+    .video_block .col-md-3:last-child {
+        display: none;
+    }
+    .video_block .row:not(:first-child) {
+        display: none;
+    }
+    .video_title {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .video_inside {
+        height: 200px;
+    }
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .catalog_paragraph {
+        align-items: flex-start;
+    }
+    .video_card {
+        height: 99px;
+    }
+    .video_block .col-md-3:last-child {
+        display: none;
+    }
+    .video_title {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .video_inside {
+        height: 340px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .video_card {
+        height: 99px;
+    }
+    .video_title {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .video_inside {
+        height: 440px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .item {
+        font-size: 16px;
+    }
+    .video_card {
+        height: 138px;
+    }
+    .video_title {
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .video_inside {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .item {
+        font-size: 18px;
+    }
+    .video_card {
+        height: 168px;
+    }
+    .video_title {
+        font-size: 16px;
+    }
+    .video_inside {
+        height: 624px;
+    }
+}
